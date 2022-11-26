@@ -1,0 +1,24 @@
+{
+  "name": "telegram-bot-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": ">=16.0.0 <17.0.0"
+  },
+  "keywords": [],
+  "author": "TUkhtayevaRoziya",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.52.0",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2"
+  }
+}
